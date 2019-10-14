@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name='Chrome API testsuite' verbose='1' >
+    <!--Includes tests that contains the groups chrome or browser-->
+    <method-selectors>
+        <method-selector>
+            <script language="beanshell"><![CDATA[return
+                   groups.containsKey("ANDROID");]]></script>
+        </method-selector>
+    </method-selectors>
+    <test name='Tests for web' parallel="methods" thread-count="1">
+        <parameter name='configurationId' value='android_app'></parameter>
+        <parameter name='propertiesFile' value='config.xml'></parameter>
+        <parameter name="debugLevel" value="IMAGES_FAIL"/>
+        <parameter name="config.appium.automated" value="true"/>
+        <packages>
+            <package name="se.soprasteria.*"/>
+        </packages>
+    </test>
+</suite>

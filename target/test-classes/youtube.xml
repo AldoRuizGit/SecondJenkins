@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <properties>
+        <property name="config.appium.automated" value="true" />
+    </properties>
+
+    <drivers>
+        <driver id="android_emulator" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+            <capability name="deviceType" value="phone" />
+            <capability name="platformName" value="Android" />
+            <capability name="deviceName" value="emulator-5554" />
+            <capability name="automationName" value="uiautomator2"/>
+            <capability name="autoGrantPermissions" value="true"/>
+            <capability name="appPackage" value="com.google.android.youtube"/>
+            <capability name="appActivity" value=".app.honeycomb.Shell$HomeActivity"/>
+        </driver>
+    </drivers>
+</config>

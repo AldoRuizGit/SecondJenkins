@@ -1,0 +1,129 @@
+08:50:28:325 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+08:50:28:353 INFO  [BDDFactory          ] - configId: android
+08:50:28:657 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+08:50:28:659 INFO  [PerformAndroidTest  ] - configId: android
+08:50:28:660 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+08:50:28:660 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+08:50:28:674 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+08:50:28:675 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+08:50:33:485 INFO  [PerformAndroidTest  ] - configId: android
+08:50:33:486 INFO  [Setup               ] - Initializing AndroidDriver
+08:50:33:488 INFO  [Setup               ] - Setting capability: deviceName   value: Android Phone
+08:50:33:488 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+08:50:33:489 INFO  [Setup               ] - Setting capability: app   value: C:\Users\ahugo\Documents\NewTest\target\test-classes\API-test.apk
+08:50:33:634 INFO  [Setup               ] - 
+----- ANDROID PACKAGE INFORMATION ------
+ Package Label: QA-Framework-API-testing
+ Version Name: 1.0
+ Version Code: 1
+----------------------------------------
+08:50:57:689 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+08:50:58:267 TRACE [EventHandler        ] - Finding element: (By.id: resetButton)
+08:50:58:878 TRACE [Presence            ] - Element was displayed within 60000 milliseconds
+08:50:58:969 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+08:50:59:208 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+08:50:59:339 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+08:50:59:498 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+08:50:59:504 INFO  [BaseTestListener    ] - TEST STARTED: swipeTest
+08:50:59:580 TRACE [EventHandler        ] - Finding element: (By.id: switchToSwipe)
+08:51:00:437 TRACE [Presence            ] - Element was clickable within 2000 milliseconds
+08:51:00:894 TRACE [EventHandler        ] - Clicked element: (id: switchToSwipe)
+08:51:02:496 DEBUG [Setup               ] - Swiping up with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+08:51:04:632 INFO  [MainPage            ] - Successfully swiped up
+08:51:04:758 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+08:51:05:290 TRACE [Presence            ] - Element was displayed within 0 milliseconds
+08:51:06:356 DEBUG [Setup               ] - Swiping down with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+08:51:07:690 INFO  [MainPage            ] - Successfully swiped down
+08:51:07:750 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+08:51:07:828 TRACE [Presence            ] - Element was not displayed within 0 milliseconds
+08:51:07:829 ERROR [VideoRecording      ] - File : null could not be deleted: null
+08:51:07:829 INFO  [BaseTestListener    ] - TEST PASSED: swipeTest
+
+08:51:07:830 INFO  [PerformAndroidTest  ] - CLOSING ANDROIDDRIVER: swipeTest
+08:51:12:988 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+12:30:01:264 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+12:30:01:294 INFO  [BDDFactory          ] - configId: android_app
+12:30:01:576 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+12:30:01:577 INFO  [PerformAndroidTest  ] - configId: android_app
+12:30:01:578 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+12:30:01:578 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+12:30:01:594 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+12:30:01:595 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+12:30:05:846 INFO  [PerformAndroidTest  ] - configId: android_app
+12:30:05:847 INFO  [Setup               ] - Initializing AndroidDriver
+12:30:05:849 INFO  [Setup               ] - Setting capability: deviceName   value: Android Phone
+12:30:05:850 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+12:30:05:851 INFO  [Setup               ] - Setting capability: app   value: C:\Users\ahugo\Documents\NewTest\target\test-classes\API-test.apk
+12:30:05:983 INFO  [Setup               ] - 
+----- ANDROID PACKAGE INFORMATION ------
+ Package Label: QA-Framework-API-testing
+ Version Name: 1.0
+ Version Code: 1
+----------------------------------------
+12:30:25:642 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+12:30:26:018 TRACE [EventHandler        ] - Finding element: (By.id: resetButton)
+12:30:26:394 TRACE [Presence            ] - Element was displayed within 60000 milliseconds
+12:30:26:438 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+12:30:26:572 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+12:30:26:623 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+12:30:26:713 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+12:30:26:721 INFO  [BaseTestListener    ] - TEST STARTED: swipeTest
+12:30:26:773 TRACE [EventHandler        ] - Finding element: (By.id: switchToSwipe)
+12:30:27:313 TRACE [Presence            ] - Element was clickable within 2000 milliseconds
+12:30:27:635 TRACE [EventHandler        ] - Clicked element: (id: switchToSwipe)
+12:30:28:715 DEBUG [Setup               ] - Swiping up with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+12:30:30:461 INFO  [MainPage            ] - Successfully swiped up
+12:30:30:509 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+12:30:30:747 TRACE [Presence            ] - Element was displayed within 0 milliseconds
+12:30:31:268 DEBUG [Setup               ] - Swiping down with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+12:30:32:854 INFO  [MainPage            ] - Successfully swiped down
+12:30:33:027 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+12:30:33:175 TRACE [Presence            ] - Element was not displayed within 0 milliseconds
+12:30:33:176 ERROR [VideoRecording      ] - File : null could not be deleted: null
+12:30:33:176 INFO  [BaseTestListener    ] - TEST PASSED: swipeTest
+
+12:30:33:177 INFO  [PerformAndroidTest  ] - CLOSING ANDROIDDRIVER: swipeTest
+12:30:38:440 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+11:58:38:116 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+11:58:38:157 INFO  [BDDFactory          ] - configId: android_app
+11:58:38:607 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+11:58:38:609 INFO  [PerformAndroidTest  ] - configId: android_app
+11:58:38:609 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+11:58:38:610 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+11:58:38:729 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+11:58:38:732 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+11:58:43:591 INFO  [PerformAndroidTest  ] - configId: android_app
+11:58:43:593 INFO  [Setup               ] - Initializing AndroidDriver
+11:58:43:599 INFO  [Setup               ] - Setting capability: deviceName   value: Android Phone
+11:58:43:601 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+11:58:43:602 INFO  [Setup               ] - Setting capability: app   value: C:\Users\ahugo\Documents\NewTest\target\test-classes\API-test.apk
+11:58:43:760 INFO  [Setup               ] - 
+----- ANDROID PACKAGE INFORMATION ------
+ Package Label: QA-Framework-API-testing
+ Version Name: 1.0
+ Version Code: 1
+----------------------------------------
+11:59:10:926 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+11:59:11:626 TRACE [EventHandler        ] - Finding element: (By.id: resetButton)
+11:59:12:253 TRACE [Presence            ] - Element was displayed within 60000 milliseconds
+11:59:12:315 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+11:59:12:457 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+11:59:12:503 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+11:59:12:599 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+11:59:12:606 INFO  [BaseTestListener    ] - TEST STARTED: swipeTest
+11:59:12:647 TRACE [EventHandler        ] - Finding element: (By.id: switchToSwipe)
+11:59:13:731 TRACE [Presence            ] - Element was clickable within 2000 milliseconds
+11:59:14:277 TRACE [EventHandler        ] - Clicked element: (id: switchToSwipe)
+11:59:15:358 DEBUG [Setup               ] - Swiping up with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+11:59:17:188 INFO  [MainPage            ] - Successfully swiped up
+11:59:17:257 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+11:59:17:690 TRACE [Presence            ] - Element was displayed within 0 milliseconds
+11:59:18:372 DEBUG [Setup               ] - Swiping down with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+11:59:19:596 INFO  [MainPage            ] - Successfully swiped down
+11:59:19:660 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+11:59:19:736 TRACE [Presence            ] - Element was not displayed within 0 milliseconds
+11:59:19:738 ERROR [VideoRecording      ] - File : null could not be deleted: null
+11:59:19:739 INFO  [BaseTestListener    ] - TEST PASSED: swipeTest
+
+11:59:19:741 INFO  [PerformAndroidTest  ] - CLOSING ANDROIDDRIVER: swipeTest
+11:59:25:267 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web

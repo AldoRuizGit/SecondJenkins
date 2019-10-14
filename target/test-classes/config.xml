@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <properties>
+        <property name="url.adminpage" value="http://automationpractice.com/index.php"/>
+        <property name="config.appium.automated" value="true" />
+    </properties>
+
+    <drivers>
+        <driver id="chromedriver" type="ChromeDriver" version="75"/>
+        <driver id="firefoxdriver" type="FirefoxDriver" />
+        <driver id="android_web" type="AndroidDriver" url="http://127.0.0.1:4723/wd/hub">
+            <capability name="deviceType" value="phone"/>
+            <capability name="device" value="Android"/>
+            <capability name="deviceName" value="OnePlus"/>
+            <capability name="automationName" value="uiautomator2" />
+            <capability name="browserName" value="Chrome"/>
+            <capability name="locationServicesAuthorized" value="true"/>
+            <capability name="autoAcceptAlerts" value="true"/>
+            <capability name="autoDismissAlerts" value="true"/>
+        </driver>
+        <driver id="android_app" type="AndroidDriver" url="http://127.0.0.1:4725/wd/hub">
+            <capability name="deviceName" value="Android Phone"/>
+            <capability name="automationName" value="uiautomator2"/>
+            <capability name="app" type="resource" value="API-test.apk"/>
+        </driver>
+    </drivers>
+</config>
