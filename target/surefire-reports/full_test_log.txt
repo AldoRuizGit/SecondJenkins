@@ -127,3 +127,399 @@
 
 11:59:19:741 INFO  [PerformAndroidTest  ] - CLOSING ANDROIDDRIVER: swipeTest
 11:59:25:267 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+15:31:24:929 INFO  [BaseTestListener    ] - STARTING TESTSUITE: NewTest
+15:31:26:246 INFO  [PerformAndroidTest  ] - configId: android
+15:31:26:266 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:31:26:268 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_RESULT
+15:31:26:279 INFO  [PerformAndroidTest  ] - configId: android
+15:31:26:282 ERROR [BaseTestListener    ] - EXCEPTION THROWN: java.lang.RuntimeException: ERROR: Failed to find any matching webdrivers for the ID in the properties file    POSSIBLE FIX: Verify that the config id is correct and exists in the config XML. 
+15:31:26:289 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: NewTest
+15:32:39:757 INFO  [BaseTestListener    ] - STARTING TESTSUITE: NewTest
+15:32:40:681 INFO  [PerformAndroidTest  ] - configId: android
+15:32:40:697 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:32:40:699 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_RESULT
+15:32:40:706 INFO  [PerformAndroidTest  ] - configId: android
+15:32:40:709 ERROR [BaseTestListener    ] - EXCEPTION THROWN: java.lang.RuntimeException: ERROR: Failed to find any matching webdrivers for the ID in the properties file    POSSIBLE FIX: Verify that the config id is correct and exists in the config XML. 
+15:32:40:717 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: NewTest
+15:41:27:200 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+15:41:27:227 INFO  [BDDFactory          ] - configId: android_web
+15:41:27:422 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+15:41:27:422 INFO  [PerformAndroidTest  ] - configId: android_web
+15:41:27:423 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+15:41:27:424 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+15:41:27:434 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:41:27:435 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+15:41:30:978 INFO  [PerformAndroidTest  ] - configId: android_web
+15:41:30:979 INFO  [Setup               ] - Initializing AndroidDriver
+15:41:30:981 INFO  [Setup               ] - Setting capability: device   value: Android
+15:41:30:981 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+15:41:30:982 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+15:41:30:982 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+15:41:30:983 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+15:41:30:983 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+15:41:30:983 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+15:41:42:191 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+15:41:42:192 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+15:41:42:192 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+15:41:42:193 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+15:41:43:644 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+15:42:45:494 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+15:42:45:516 INFO  [BDDFactory          ] - configId: android_web
+15:42:45:721 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+15:42:45:722 INFO  [PerformAndroidTest  ] - configId: android_web
+15:42:45:723 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+15:42:45:723 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+15:42:45:738 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:42:45:738 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+15:42:49:278 INFO  [PerformAndroidTest  ] - configId: android_web
+15:42:49:279 INFO  [Setup               ] - Initializing AndroidDriver
+15:42:49:281 INFO  [Setup               ] - Setting capability: device   value: Android
+15:42:49:282 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+15:42:49:282 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+15:42:49:283 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+15:42:49:283 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+15:42:49:284 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+15:42:49:284 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+15:43:21:115 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+15:43:21:116 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+15:43:21:116 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+15:43:21:117 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+15:43:22:328 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+15:48:18:635 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+15:48:18:656 INFO  [BDDFactory          ] - configId: android_web
+15:48:18:853 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+15:48:18:854 INFO  [PerformAndroidTest  ] - configId: android_web
+15:48:18:854 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+15:48:18:857 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+15:48:18:868 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:48:18:869 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+15:48:22:424 INFO  [PerformAndroidTest  ] - configId: android_web
+15:48:22:426 INFO  [Setup               ] - Initializing AndroidDriver
+15:48:22:428 INFO  [Setup               ] - Setting capability: device   value: Android
+15:48:22:429 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+15:48:22:430 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+15:48:22:430 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+15:48:22:431 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+15:48:22:431 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+15:48:22:432 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+15:48:37:654 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+15:48:37:655 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+15:48:37:656 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+15:48:37:656 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+15:48:39:078 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+15:50:44:611 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+15:50:44:639 INFO  [BDDFactory          ] - configId: android_web
+15:50:44:864 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+15:50:44:865 INFO  [PerformAndroidTest  ] - configId: android_web
+15:50:44:865 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+15:50:44:866 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+15:50:44:880 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:50:44:881 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+15:50:44:901 INFO  [PerformAndroidTest  ] - configId: android_web
+15:50:44:902 INFO  [Setup               ] - Initializing AndroidDriver
+15:50:44:904 INFO  [Setup               ] - Setting capability: device   value: Android
+15:50:44:904 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+15:50:44:905 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+15:50:44:905 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+15:50:44:906 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+15:50:44:906 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+15:50:44:906 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+15:50:56:423 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+15:50:56:423 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+15:50:56:424 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+15:50:56:424 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+15:51:16:456 TRACE [PerformAndroidTest  ] - Could not stop Appium within the timeout limit of 20000 millis
+15:51:16:456 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+15:51:39:955 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+15:51:39:981 INFO  [BDDFactory          ] - configId: android_web
+15:51:40:200 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+15:51:40:202 INFO  [PerformAndroidTest  ] - configId: android_web
+15:51:40:203 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+15:51:40:203 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+15:51:40:216 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+15:51:40:217 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+15:51:43:785 INFO  [PerformAndroidTest  ] - configId: android_web
+15:51:43:787 INFO  [Setup               ] - Initializing AndroidDriver
+15:51:43:790 INFO  [Setup               ] - Setting capability: device   value: Android
+15:51:43:790 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+15:51:43:791 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+15:51:43:791 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+15:51:43:792 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+15:51:43:792 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+15:51:43:793 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+15:51:54:223 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+15:51:54:223 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+15:51:54:223 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+15:51:54:223 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+15:51:55:673 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:53:38:382 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:53:38:405 INFO  [BDDFactory          ] - configId: android_web
+09:53:38:592 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:53:38:594 INFO  [PerformAndroidTest  ] - configId: android_web
+09:53:38:599 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:53:38:600 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:53:38:617 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:53:38:618 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:53:42:700 INFO  [PerformAndroidTest  ] - configId: android_web
+09:53:42:702 INFO  [Setup               ] - Initializing AndroidDriver
+09:53:42:704 INFO  [Setup               ] - Setting capability: device   value: Android
+09:53:42:705 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+09:53:42:705 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:53:42:706 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+09:53:42:706 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+09:53:42:707 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+09:53:42:707 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+09:53:54:072 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+09:53:54:073 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+09:53:54:073 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+09:53:54:073 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.127.15.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+09:53:55:417 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:26:50:725 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:26:50:799 INFO  [BDDFactory          ] - configId: android_web
+09:26:51:510 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:26:51:511 INFO  [PerformAndroidTest  ] - configId: android_web
+09:26:51:512 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:26:51:513 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:26:51:680 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:26:51:682 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:26:56:958 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:26:56:987 INFO  [BDDFactory          ] - configId: android_web
+09:26:57:334 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:26:57:336 INFO  [PerformAndroidTest  ] - configId: android_web
+09:26:57:336 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:26:57:337 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:26:57:357 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:26:57:358 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:26:58:937 INFO  [PerformAndroidTest  ] - configId: android_web
+09:26:58:938 INFO  [Setup               ] - Initializing AndroidDriver
+09:26:58:940 INFO  [Setup               ] - Setting capability: device   value: Android
+09:26:58:941 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+09:26:58:941 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:26:58:941 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+09:26:58:942 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+09:26:58:942 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+09:26:58:942 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+09:26:59:009 INFO  [PerformAndroidTest  ] - configId: android_web
+09:26:59:010 INFO  [Setup               ] - Initializing AndroidDriver
+09:26:59:012 INFO  [Setup               ] - Setting capability: device   value: Android
+09:26:59:012 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+09:26:59:012 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:26:59:013 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+09:26:59:013 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+09:26:59:014 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+09:26:59:014 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+09:27:20:491 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+09:27:20:491 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+09:27:20:492 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+09:27:20:492 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\ahugo\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell settings delete global hidden_api_policy_pre_p_apps' exited with code 1'; Stderr: 'error: device offline'; Code: '1'
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command 'C\:\\Users\\ahugo\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell settings delete global hidden_api_policy_pre_p_apps' exited with code 1'; Stderr: 'error: device offline'; Code: '1'
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+09:27:20:875 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+09:27:20:875 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+09:27:20:876 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+09:27:20:876 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+09:27:21:879 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:27:21:945 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:28:03:363 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:28:03:392 INFO  [BDDFactory          ] - configId: android_web
+09:28:03:668 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:28:03:669 INFO  [PerformAndroidTest  ] - configId: android_web
+09:28:03:670 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:28:03:670 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:28:03:688 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:28:03:689 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:28:07:694 INFO  [PerformAndroidTest  ] - configId: android_web
+09:28:07:696 INFO  [Setup               ] - Initializing AndroidDriver
+09:28:07:697 INFO  [Setup               ] - Setting capability: device   value: Android
+09:28:07:697 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+09:28:07:698 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:28:07:698 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+09:28:07:698 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+09:28:07:699 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+09:28:07:699 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+09:28:19:072 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+09:28:19:072 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+09:28:19:073 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+09:28:19:073 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+09:28:20:498 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:28:45:504 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:28:45:529 INFO  [BDDFactory          ] - configId: android_web
+09:28:45:862 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:28:45:864 INFO  [PerformAndroidTest  ] - configId: android_web
+09:28:45:864 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:28:45:867 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:28:45:888 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:28:45:889 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:28:49:610 INFO  [PerformAndroidTest  ] - configId: android_web
+09:28:49:613 INFO  [Setup               ] - Initializing AndroidDriver
+09:28:49:617 INFO  [Setup               ] - Setting capability: device   value: Android
+09:28:49:617 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+09:28:49:618 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:28:49:618 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+09:28:49:619 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+09:28:49:619 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+09:28:49:619 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+09:29:00:666 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+09:29:00:666 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+09:29:00:666 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+09:29:00:667 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+09:29:02:085 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:36:33:633 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:36:33:662 INFO  [BDDFactory          ] - configId: android_web
+09:36:33:842 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:36:33:843 INFO  [PerformAndroidTest  ] - configId: android_web
+09:36:33:844 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:36:33:844 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:36:33:858 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:36:33:859 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:36:33:875 INFO  [PerformAndroidTest  ] - configId: android_web
+09:36:33:876 INFO  [Setup               ] - Initializing AndroidDriver
+09:36:33:877 INFO  [Setup               ] - Setting capability: device   value: Android
+09:36:33:877 INFO  [Setup               ] - Setting capability: deviceName   value: OnePlus
+09:36:33:878 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:36:33:878 INFO  [Setup               ] - Setting capability: browserName   value: Chrome
+09:36:33:878 INFO  [Setup               ] - Setting capability: locationServicesAuthorized   value: true
+09:36:33:879 INFO  [Setup               ] - Setting capability: autoAcceptAlerts   value: true
+09:36:33:879 INFO  [Setup               ] - Setting capability: autoDismissAlerts   value: true
+09:36:45:169 ERROR [BaseTestListener    ] - ERROR: Could not start a new session, the cause may be due to an earlier session not closing as expected
+09:36:45:169 ERROR [BaseTestListener    ] - POSSIBLE FIX: Enable session override for the device by setting the appium capability "sessionOverride" to true
+09:36:45:170 ERROR [BaseTestListener    ] - POSSIBLE FIX: If android: The device may be offline in the device list "adb devices -l" even though it's connected, disconnect and reconnect the device
+09:36:45:170 ERROR [BaseTestListener    ] - EXCEPTION THROWN: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: No Chromedriver found that can automate Chrome '69.0.3497'. See https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md for more details.
+    at getResponseForW3CError (C:\Users\ahugo\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler (C:\Users\ahugo\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'ITEM-S66926', ip: '10.231.30.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+09:37:05:197 TRACE [PerformAndroidTest  ] - Could not stop Appium within the timeout limit of 20000 millis
+09:37:05:198 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
+09:38:13:036 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+09:38:13:065 INFO  [BDDFactory          ] - configId: android_app
+09:38:13:283 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+09:38:13:290 INFO  [PerformAndroidTest  ] - configId: android_app
+09:38:13:291 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+09:38:13:291 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+09:38:13:305 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+09:38:13:307 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+09:38:16:848 INFO  [PerformAndroidTest  ] - configId: android_app
+09:38:16:849 INFO  [Setup               ] - Initializing AndroidDriver
+09:38:16:850 INFO  [Setup               ] - Setting capability: deviceName   value: Android Phone
+09:38:16:851 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+09:38:16:852 INFO  [Setup               ] - Setting capability: app   value: C:\Users\ahugo\Documents\NewTest\target\test-classes\API-test.apk
+09:38:16:985 INFO  [Setup               ] - 
+----- ANDROID PACKAGE INFORMATION ------
+ Package Label: QA-Framework-API-testing
+ Version Name: 1.0
+ Version Code: 1
+----------------------------------------
+09:38:34:109 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+09:38:34:717 TRACE [EventHandler        ] - Finding element: (By.id: resetButton)
+09:38:35:460 TRACE [Presence            ] - Element was displayed within 60000 milliseconds
+09:38:35:509 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+09:38:35:638 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+09:38:35:685 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+09:38:35:782 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+09:38:35:790 INFO  [BaseTestListener    ] - TEST STARTED: swipeTest
+09:38:35:835 TRACE [EventHandler        ] - Finding element: (By.id: switchToSwipe)
+09:38:36:334 TRACE [Presence            ] - Element was clickable within 2000 milliseconds
+09:38:36:637 TRACE [EventHandler        ] - Clicked element: (id: switchToSwipe)
+09:38:37:914 DEBUG [Setup               ] - Swiping up with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+09:38:39:211 INFO  [MainPage            ] - Successfully swiped up
+09:38:39:266 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+09:38:39:450 TRACE [Presence            ] - Element was displayed within 0 milliseconds
+09:38:39:925 DEBUG [Setup               ] - Swiping down with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+09:38:41:056 INFO  [MainPage            ] - Successfully swiped down
+09:38:41:117 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+09:38:41:205 TRACE [Presence            ] - Element was not displayed within 0 milliseconds
+09:38:41:206 ERROR [VideoRecording      ] - File : null could not be deleted: null
+09:38:41:207 INFO  [BaseTestListener    ] - TEST PASSED: swipeTest
+
+09:38:41:208 INFO  [PerformAndroidTest  ] - CLOSING ANDROIDDRIVER: swipeTest
+09:38:45:794 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
